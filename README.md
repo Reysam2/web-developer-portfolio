@@ -2,9 +2,9 @@
 
 <img align="right" src="https://media.giphy.com/media/du3J3cXyzhj75IOgvA/giphy.gif" width="100"/>
 
-A standard complaint website to sharpen my HTML & CSS skills.
+A standard complaint website to demonstrate my HTML and CSS skills.
 
-Charma-clone was created with reference to the original website Charma.com.
+This is made possible by Codewell, a platform that pushes you to practice coding by providing real world problems for you to solve.
 
 ## Languages and Tools:
 
