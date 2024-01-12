@@ -60,3 +60,73 @@
 /* .header__button:active {
   transform: translate(0.1rem, 0.2rem) 
 } */
+
+/* main block */
+.main-block {
+  grid-area:main;
+  min-height:50rem;
+  background:green; 
+}
+
+.main__company-block {
+  min-height:20rem;
+  background:red;
+  display:flex;
+  flex-direction:column; 
+}
+
+
+.company__info-block {
+  width:70%;
+  background:lightpink;
+  display:flex;
+  flex-direction:column;
+  padding:2% 3%;
+}
+
+.company__info-heading-block {
+min-height:10rem;
+max-width:60%;
+margin-bottom:3rem;
+}
+
+.company__info-heading {
+  font-size:4rem;
+
+}
+
+.company__info-text-block  {
+  min-height:10rem;
+  width:70%;
+}
+
+.company__info-text {
+  font-size:2rem;
+}
+ 
+.company__logo-block {
+  min-height:7em;
+  width:100%; 
+  /* display:flex; 
+  align-items: center;
+  justify-content:space-around;
+  flex-wrap:wrap; */
+  display:grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: 10rem;;
+  gap:2rem;
+  padding:2%
+}
+
+.company__logo-box { 
+  background:gray;
+  display:flex;
+  justify-content: center;
+ 
+}
+
+.company__logo {
+ width:100%;  
+ object-fit: scale-down;
+
+}
