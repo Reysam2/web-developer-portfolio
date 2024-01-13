@@ -68,6 +68,7 @@
   background:green; 
 }
 
+/* main company block */
 .main__company-block {
   min-height:20rem;
   background:red;
@@ -178,5 +179,51 @@ align-items:center;
 }
 
 .project__info-text {
+  font-size:1.8rem;
+}
+
+/* main about block */
+.main__about-block {
+  min-height:50rem;
+  width:100%;
+  background:rgb(167, 112, 120);
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+.main__about {
+  min-height:40rem;
+  width:70%;
+  background:gray;
+  display:flex;
+  justify-content:space-between;
+
+}
+
+.about__info-box {
+  flex-basis:48%;
+  background:green;
+
+}
+
+.about__info-heading-block {
+  min-height:5rem;
+  width:100%;
+  background:lightpink;
+  display:flex;
+  align-items:center;
+  margin-bottom:1rem;
+}
+
+.about__info-heading {
+font-size:2.5em;
+}
+
+.about__info-text-block {
+
+}
+
+.about__info-text {
+  margin-top:2rem;
   font-size:1.8rem;
 }
