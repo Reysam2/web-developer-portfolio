@@ -227,3 +227,61 @@ font-size:2.5em;
   margin-top:2rem;
   font-size:1.8rem;
 }
+
+/* main contact block */
+.main__contact-block {
+  min-height:30rem;
+  width:100%;
+  background:lightpink;
+  display:flex; 
+  align-items:center;
+  justify-content: center;
+  padding:2%;
+}
+
+.main__contact {
+  min-height:25rem;
+ width:76%;
+ background:red;
+ display:flex;
+ flex-direction:column;
+ justify-content: space-around;
+}
+
+.contact__info-heading-block{
+  min-height:5rem;
+  background:green;
+  display:flex;
+  align-items:center;
+}
+
+.contact__info-heading {
+  font-size:2.5em;
+}
+
+.contact__info-text-block {
+  background:grey; 
+  min-height:10rem;
+  display:flex;
+  align-items:center;
+}
+
+.contact__info-text {
+  font-size:1.8rem;
+}
+
+.contact__button-block {
+  background:rgb(80, 175, 42);
+  min-height:5rem;
+  width:100%;
+  display:flex;
+}
+
+.contact__button {
+  padding: 1.6rem 2.5rem;
+  font-size: 1.65rem;
+  border-radius: 0.3rem;
+  box-shadow: 0.2rem 0.2rem 2rem rgba(0, 0, 0, 0.2);
+  border: none;
+  background-color: #fbe850;
+}
