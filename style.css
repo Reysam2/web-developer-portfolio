@@ -63,218 +63,208 @@
 
 /* main block */
 .main-block {
-  grid-area:main;
-  min-height:50rem;
-  background:green; 
+  grid-area: main;
+  min-height: 50rem;
+  background: green;
 }
 
 /* main company block */
 .main__company-block {
-  min-height:20rem;
-  background:red;
-  display:flex;
-  flex-direction:column; 
+  min-height: 20rem;
+  background: red;
+  display: flex;
+  flex-direction: column;
 }
 
-
 .company__info-block {
-  width:70%;
-  background:lightpink;
-  display:flex;
-  flex-direction:column;
-  padding:2% 3%;
+  width: 70%;
+  background: lightpink;
+  display: flex;
+  flex-direction: column;
+  padding: 2% 3%;
 }
 
 .company__info-heading-block {
-min-height:10rem;
-max-width:60%;
-margin-bottom:3rem;
+  min-height: 10rem;
+  max-width: 60%;
+  margin-bottom: 3rem;
 }
 
 .company__info-heading {
-  font-size:4rem;
-
+  font-size: 4rem;
 }
 
-.company__info-text-block  {
-  min-height:10rem;
-  width:70%;
+.company__info-text-block {
+  min-height: 10rem;
+  width: 70%;
 }
 
 .company__info-text {
-  font-size:2rem;
+  font-size: 2rem;
 }
- 
+
 .company__logo-block {
-  min-height:7em;
-  width:100%; 
+  min-height: 7em;
+  width: 100%;
   /* display:flex; 
   align-items: center;
   justify-content:space-around;
   flex-wrap:wrap; */
-  display:grid;
+  display: grid;
   grid-template-columns: repeat(6, 1fr);
-  grid-template-rows: 10rem;;
-  gap:2rem;
-  padding:2%
+  grid-template-rows: 10rem;
+  gap: 2rem;
+  padding: 2%;
 }
 
-.company__logo-box { 
-  background:gray;
-  display:flex;
+.company__logo-box {
+  background: gray;
+  display: flex;
   justify-content: center;
- 
 }
 
 .company__logo {
- width:100%;  
- object-fit: scale-down;
-
+  width: 100%;
+  object-fit: scale-down;
 }
 
 /* main project block */
 .main__project-block {
-min-height:50rem;
-width:100%;
-background:gray;
-display:flex;
-justify-content:center;
-align-items:center;
+  min-height: 50rem;
+  width: 100%;
+  background: gray;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .main__project {
-  min-height:40rem;
-  width:70%;
-  background:red;
-  display:flex;
+  min-height: 40rem;
+  width: 70%;
+  background: red;
+  display: flex;
   justify-content: space-between;
 }
 
 .project__preview-block {
-  flex-basis:48%;
-  display:flex;
+  flex-basis: 48%;
+  display: flex;
   flex-direction: column;
   background: rgb(83, 83, 54);
 }
 
 .project__preview-img {
-  width:100%
+  max-width: 100%;
 }
 
 .project__info-block {
-  margin-top:1rem;
+  margin-top: 1rem;
 }
 
 .project__info-heading-block {
-  width:100%;
-  background:green;
-  min-height:4rem;
-  display:flex;
-  align-items:center;
-  margin-bottom:1rem;
+  width: 100%;
+  background: green;
+  min-height: 4rem;
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
 }
 
 .project__info-heading {
-  font-size:2.5rem;
+  font-size: 2.5rem;
 }
 
 .project__info-text {
-  font-size:1.8rem;
+  font-size: 1.8rem;
 }
 
 /* main about block */
 .main__about-block {
-  min-height:50rem;
-  width:100%;
-  background:rgb(167, 112, 120);
-  display:flex;
-  justify-content:center;
-  align-items:center;
+  min-height: 50rem;
+  max-width: 100%;
+  background: rgb(167, 112, 120);
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .main__about {
-  min-height:40rem;
-  width:70%;
-  background:gray;
-  display:flex;
-  justify-content:space-between;
-
+  min-height: 40rem;
+  max-width: 70%;
+  background: gray;
+  display: flex;
+  justify-content: space-between;
 }
 
 .about__info-box {
-  flex-basis:48%;
-  background:green;
-
+  flex-basis: 48%;
+  background: green;
 }
 
 .about__info-heading-block {
-  min-height:5rem;
-  width:100%;
-  background:lightpink;
-  display:flex;
-  align-items:center;
-  margin-bottom:1rem;
+  min-height: 5rem;
+  max-width: 100%;
+  background: lightpink;
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
 }
 
 .about__info-heading {
-font-size:2.5em;
-}
-
-.about__info-text-block {
-
+  font-size: 2.5em;
 }
 
 .about__info-text {
-  margin-top:2rem;
-  font-size:1.8rem;
+  margin-top: 2rem;
+  font-size: 1.8rem;
 }
 
 /* main contact block */
 .main__contact-block {
-  min-height:30rem;
-  width:100%;
-  background:lightpink;
-  display:flex; 
-  align-items:center;
+  min-height: 30rem;
+  width: 100%;
+  background: lightpink;
+  display: flex;
+  align-items: center;
   justify-content: center;
-  padding:2%;
+  padding: 2%;
 }
 
 .main__contact {
-  min-height:25rem;
- width:76%;
- background:red;
- display:flex;
- flex-direction:column;
- justify-content: space-around;
+  min-height: 25rem;
+  width: 76%;
+  background: red;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
 }
 
-.contact__info-heading-block{
-  min-height:5rem;
-  background:green;
-  display:flex;
-  align-items:center;
+.contact__info-heading-block {
+  min-height: 5rem;
+  background: green;
+  display: flex;
+  align-items: center;
 }
 
 .contact__info-heading {
-  font-size:2.5em;
+  font-size: 2.5em;
 }
 
 .contact__info-text-block {
-  background:grey; 
-  min-height:10rem;
-  display:flex;
-  align-items:center;
+  background: grey;
+  min-height: 10rem;
+  display: flex;
+  align-items: center;
 }
 
 .contact__info-text {
-  font-size:1.8rem;
+  font-size: 1.8rem;
 }
 
 .contact__button-block {
-  background:rgb(80, 175, 42);
-  min-height:5rem;
-  width:100%;
-  display:flex;
+  background: rgb(80, 175, 42);
+  min-height: 5rem;
+  width: 100%;
+  display: flex;
 }
 
 .contact__button {
@@ -284,4 +274,48 @@ font-size:2.5em;
   box-shadow: 0.2rem 0.2rem 2rem rgba(0, 0, 0, 0.2);
   border: none;
   background-color: #fbe850;
+}
+
+/* footer block */
+.footer-block {
+  grid-area: footer;
+  min-height: 8rem;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 3%;
+}
+
+.footer__name-block {
+  flex-basis: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgb(44, 37, 37);
+}
+
+.footer__name {
+  font-size: 2rem;
+}
+
+.footer__social-link-block {
+  flex-basis: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+  background: rgb(44, 37, 37);
+}
+
+.social__link {
+  flex-basis: 3.4rem;
+  background: red;
+  border-radius: 50%;
+}
+
+.social__link-icon {
+  background: rgb(119, 67, 67);
+  vertical-align: top;
+  width: 100%;
+  border-radius: 50%;
 }
