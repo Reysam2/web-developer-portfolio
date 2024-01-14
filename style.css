@@ -3,12 +3,12 @@
   grid-area: header;
   display: flex;
   justify-content: space-between;
-  background: gray;
+  margin-top: 5rem;
+  padding: 0 2%;
 }
 
 .header__dev-text-block {
   flex-basis: 26rem;
-  background: red;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -16,11 +16,11 @@
 
 .header__dev-text {
   font-size: 2rem;
+  color: #ffffff;
 }
 
 .header__nav-block {
   flex: 1;
-  background: blue;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -42,7 +42,6 @@
 
 .header__button-block {
   flex-basis: 26rem;
-  background: lightpink;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -65,38 +64,37 @@
 .main-block {
   grid-area: main;
   min-height: 50rem;
-  background: green;
+  margin-top: 5rem;
 }
 
 /* main company block */
 .main__company-block {
   min-height: 20rem;
-  background: red;
   display: flex;
   flex-direction: column;
+  padding: 0 6%;
 }
 
 .company__info-block {
-  width: 70%;
-  background: lightpink;
+  max-width: 100%;
   display: flex;
   flex-direction: column;
-  padding: 2% 3%;
 }
 
 .company__info-heading-block {
   min-height: 10rem;
-  max-width: 60%;
+  width: 100%;
   margin-bottom: 3rem;
 }
 
 .company__info-heading {
   font-size: 4rem;
+  color: #ffffff;
 }
 
 .company__info-text-block {
   min-height: 10rem;
-  width: 70%;
+  width: 54%;
 }
 
 .company__info-text {
@@ -118,7 +116,6 @@
 }
 
 .company__logo-box {
-  background: gray;
   display: flex;
   justify-content: center;
 }
@@ -132,25 +129,24 @@
 .main__project-block {
   min-height: 50rem;
   width: 100%;
-  background: gray;
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-top: 5rem;
 }
 
 .main__project {
   min-height: 40rem;
-  width: 70%;
-  background: red;
+  max-width: 90%;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
+  gap: 16rem;
 }
 
 .project__preview-block {
-  flex-basis: 48%;
+  flex-basis: 35%;
   display: flex;
   flex-direction: column;
-  background: rgb(83, 83, 54);
 }
 
 .project__preview-img {
@@ -163,7 +159,6 @@
 
 .project__info-heading-block {
   width: 100%;
-  background: green;
   min-height: 4rem;
   display: flex;
   align-items: center;
@@ -172,6 +167,7 @@
 
 .project__info-heading {
   font-size: 2.5rem;
+  color: #ffffff;
 }
 
 .project__info-text {
@@ -182,28 +178,26 @@
 .main__about-block {
   min-height: 50rem;
   max-width: 100%;
-  background: rgb(167, 112, 120);
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-top: 5rem;
+  background: #2e3038;
 }
 .main__about {
   min-height: 40rem;
-  max-width: 70%;
-  background: gray;
+  max-width: 90%;
   display: flex;
   justify-content: space-between;
 }
 
 .about__info-box {
   flex-basis: 48%;
-  background: green;
 }
 
 .about__info-heading-block {
   min-height: 5rem;
   max-width: 100%;
-  background: lightpink;
   display: flex;
   align-items: center;
   margin-bottom: 1rem;
@@ -211,6 +205,7 @@
 
 .about__info-heading {
   font-size: 2.5em;
+  color: #ffffff;
 }
 
 .about__info-text {
@@ -222,7 +217,6 @@
 .main__contact-block {
   min-height: 30rem;
   width: 100%;
-  background: lightpink;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -231,8 +225,7 @@
 
 .main__contact {
   min-height: 25rem;
-  width: 76%;
-  background: red;
+  width: 85%;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -240,20 +233,20 @@
 
 .contact__info-heading-block {
   min-height: 5rem;
-  background: green;
   display: flex;
   align-items: center;
 }
 
 .contact__info-heading {
   font-size: 2.5em;
+  color: #ffffff;
 }
 
 .contact__info-text-block {
-  background: grey;
   min-height: 10rem;
   display: flex;
   align-items: center;
+  width: 44%;
 }
 
 .contact__info-text {
@@ -261,7 +254,6 @@
 }
 
 .contact__button-block {
-  background: rgb(80, 175, 42);
   min-height: 5rem;
   width: 100%;
   display: flex;
@@ -279,42 +271,40 @@
 /* footer block */
 .footer-block {
   grid-area: footer;
-  min-height: 8rem;
+  min-height: 10rem;
   width: 100%;
   display: flex;
   justify-content: space-between;
-  padding: 0 3%;
+  padding: 0 5%;
+  margin-top: 4rem;
+  background: #2e3038;
 }
 
 .footer__name-block {
   flex-basis: 30%;
   display: flex;
-  justify-content: center;
   align-items: center;
-  background: rgb(44, 37, 37);
 }
 
 .footer__name {
-  font-size: 2rem;
+  font-size: 2.5rem;
+  color: #ffffff;
 }
 
 .footer__social-link-block {
   flex-basis: 30%;
   display: flex;
-  justify-content: center;
+  justify-content: flex-end;
   align-items: center;
   gap: 3rem;
-  background: rgb(44, 37, 37);
 }
 
 .social__link {
   flex-basis: 3.4rem;
-  background: red;
   border-radius: 50%;
 }
 
 .social__link-icon {
-  background: rgb(119, 67, 67);
   vertical-align: top;
   width: 100%;
   border-radius: 50%;
