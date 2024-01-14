@@ -4,8 +4,7 @@
   display: flex; 
   justify-content: space-between;
   align-items: center;
-  margin-top: 5rem;
-  padding: 0 2%;
+  margin-top: 6rem; 
 }
 
 .header__dev-text-block {
@@ -16,12 +15,13 @@
 }
 
 .header__dev-text {
-  font-size: 2rem;
+  font-size: 2.5rem;
   color: #ffffff;
 }
 
 .header__menu-block {
   flex-basis:5rem;  
+ margin-right:5.5%;
 }
 
 .header__menu { 
@@ -73,7 +73,7 @@
 .main-block {
   grid-area: main;
   min-height: 50rem;
-  margin-top: 5rem;
+  margin-top: 7rem;
 }
 
 /* main company block */
