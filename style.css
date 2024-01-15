@@ -88,9 +88,10 @@ mobile display
     width: 100%;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: 10rem;
+    grid-template-rows: repeat(3, 6rem);
     gap: 2rem;
     padding: 2%;
+    margin-top:4rem;
   }
 
   .company__logo-box {
@@ -99,8 +100,8 @@ mobile display
   }
 
   .company__logo {
-    width: 100%;
-    object-fit: scale-down;
+    width: 100%;  
+    object-fit: scale-down; 
   }
 
   /* main project block */
