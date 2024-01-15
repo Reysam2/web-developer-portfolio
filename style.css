@@ -792,6 +792,15 @@ tablet display
     color: #ffffff;
   }
 
+  .project__info-heading-span {
+    display:inline-block;
+    transition: transform .3s ease-out
+  }
+
+  .project__info-heading:hover .project__info-heading-span  {
+    transform: translateX(1rem);
+  }
+
   .project__info-text {
     font-size: 1.8rem;
   }
