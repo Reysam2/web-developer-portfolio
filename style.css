@@ -268,7 +268,7 @@ mobile display
   }
 
   .footer__name-block {
-    flex-basis: 50%;
+    flex-basis: 55%;
     display: flex;
     align-items: center;
   }
@@ -293,7 +293,7 @@ mobile display
 
   .social__link-icon {
     vertical-align: top;
-    width: 100%;
+    min-width: 100%;
     border-radius: 50%;
   }
 }
