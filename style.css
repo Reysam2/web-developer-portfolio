@@ -306,13 +306,15 @@ tablet display
   .header-block1 * {
     display: none;
     grid-area: header;
-  } /* header block */
+  } 
+
+  /* header block */
   .header-block {
     grid-area: header;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-top: 6rem;
+    margin-top: 6rem; 
   }
 
   .header__dev-text-block {
@@ -605,6 +607,7 @@ tablet display
 
   .header-block1 * {
     display: block;
+    z-index:5
   }
 
   .header-block {
@@ -646,6 +649,11 @@ tablet display
     width: 100%;
     font-size: 1.8rem;
     letter-spacing: 0.07rem;
+    transition: color .3s;
+  }
+
+  .nav__link:hover {
+    color:#ffffff;
   }
 
   .header__button-block {
