@@ -670,11 +670,12 @@ tablet display
     box-shadow: 0.2rem 0.2rem 2rem rgba(0, 0, 0, 0.2);
     border: none;
     background-color: #fbe850;
+    cursor: pointer;
   }
 
-  /* .header__button:active {
+  .header__button:active {
   transform: translate(0.1rem, 0.2rem) 
-} */
+}
 
   /* main block */
   .main-block {
@@ -879,6 +880,10 @@ tablet display
     border: none;
     background-color: #fbe850;
   }
+
+  .contact__button:active {
+    transform: translate(0.1rem, 0.2rem) 
+  }  
 
   /* footer block */
   .footer-block {
