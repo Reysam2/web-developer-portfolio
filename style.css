@@ -255,6 +255,10 @@ mobile display
     margin-top:2rem
   }
 
+  .contact__button:active {
+    transform: translate(0.1rem, 0.2rem) 
+  }
+
   /* footer block */
   .footer-block {
     grid-area: footer;
@@ -408,7 +412,6 @@ tablet display
     justify-content: center;
     align-items: center;
     margin: 16rem 0 12rem;
-    /* margin-top: 5rem; */
   }
 
   .main__project {
@@ -550,6 +553,10 @@ tablet display
     box-shadow: 0.2rem 0.2rem 2rem rgba(0, 0, 0, 0.2);
     border: none;
     background-color: #fbe850;
+  }
+
+  .contact__button:active {
+    transform: translate(0.1rem, 0.2rem) 
   }
 
   /* footer block */
