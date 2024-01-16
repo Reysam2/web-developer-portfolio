@@ -1,7 +1,7 @@
 /******************
 mobile display 
  *******************/
- @media screen and (max-width: 767px) {
+ @media screen and (max-width: 639px) {
   /* header block */
   .header-block1 * {
     display: none;
@@ -20,7 +20,7 @@ mobile display
   .header__dev-text-block {
     flex-basis: 26rem;
     display: flex;
-    justify-content: center;
+    margin-left: 6.5%; 
     align-items: center;
   }
 
@@ -309,7 +309,7 @@ mobile display
 /******************
 tablet display 
  *******************/
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 640px) {
   /* header block */
   .header-block1 * {
     display: none;
@@ -763,9 +763,7 @@ tablet display
   .main__project {
     min-height: 40rem; 
     display: grid;
-    grid-template-columns:repeat(2, 40rem);
-    justify-content: center;
-    gap: 16rem; 
+    grid-template-columns:repeat(2, minmax(37rem, 40rem));
   }
 
   .project__preview-block {
