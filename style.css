@@ -1,7 +1,7 @@
 /******************
 mobile display 
  *******************/
- @media screen and (max-width: 767px) {
+ @media screen and (max-width: 639px) {
   /* header block */
   .header-block1 * {
     display: none;
@@ -20,7 +20,7 @@ mobile display
   .header__dev-text-block {
     flex-basis: 26rem;
     display: flex;
-    justify-content: center;
+    margin-left: 6.5%; 
     align-items: center;
   }
 
@@ -30,13 +30,13 @@ mobile display
   }
 
   .header__menu-block {
-    flex-basis: 5rem;
+    flex-basis: 3.5rem;  
     margin-right: 5.5%;
   }
 
   .header__menu {
-    width: 100%;
-    vertical-align: top;
+    max-width: 100%;
+    vertical-align: top; 
   }
 
   /* main block */
@@ -57,7 +57,7 @@ mobile display
   }
 
   .company__info-block {
-    width: 90%;
+    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -65,13 +65,13 @@ mobile display
 
   .company__info-heading-block {
     min-height: 10rem;
-    width: 100%; 
-    margin-bottom: 3rem;
+    width: 100%;  
   }
 
   .company__info-heading {
     font-size: 3rem;
     color: #ffffff;
+    line-height:1.2;
   }
 
   .company__info-text-block {
@@ -111,12 +111,12 @@ mobile display
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 12rem 0 10rem;
+    margin: 11rem 0 10rem;
   }
 
   .main__project {
     min-height: 40rem;
-    max-width: 60%;
+    width: 85%; 
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -148,6 +148,7 @@ mobile display
 
   .project__info-heading {
     font-size: 2.5rem;
+    line-height:1.2;
     color: #ffffff;
   }
 
@@ -193,6 +194,7 @@ mobile display
   .about__info-heading {
     font-size: 2.5em;
     color: #ffffff;
+    line-height:1.2;
   }
 
   .about__info-text {
@@ -215,25 +217,27 @@ mobile display
     width: 85%;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: center;
+    gap:0.8rem;
   }
 
   .contact__info-heading-block {
     min-height: 5rem;
     display: flex;
-    align-items: center;
+    align-items: center;   
   }
 
   .contact__info-heading {
     font-size: 2.5em;
+    line-height:1.2;
     color: #ffffff;
   }
 
   .contact__info-text-block {
-    min-height: 10rem;
+    min-height: 7rem;
     display: flex;
-    align-items: center;
-    width: 75%;
+    /* align-items: center; */
+    width: 100%; 
   }
 
   .contact__info-text {
@@ -244,6 +248,7 @@ mobile display
     min-height: 5rem;
     width: 100%;
     display: flex;
+    margin-top:1rem;
   }
 
   .contact__button {
@@ -252,8 +257,7 @@ mobile display
     border-radius: 0.3rem;
     box-shadow: 0.2rem 0.2rem 2rem rgba(0, 0, 0, 0.2);
     border: none;
-    background-color: #fbe850;
-    margin-top:2rem
+    background-color: #fbe850; 
   }
 
   .contact__button:active {
@@ -306,7 +310,7 @@ mobile display
 /******************
 tablet display 
  *******************/
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 640px) {
   /* header block */
   .header-block1 * {
     display: none;
@@ -335,7 +339,7 @@ tablet display
   }
 
   .header__menu-block {
-    flex-basis: 5rem;
+    flex-basis: 3.5rem;  
     margin-right: 5.5%;
   }
 
@@ -374,6 +378,7 @@ tablet display
   .company__info-heading {
     font-size: 6rem;
     color: #ffffff;
+    line-height:1.2;
   }
 
   .company__info-text-block {
@@ -494,6 +499,7 @@ tablet display
   .about__info-heading {
     font-size: 2.5em;
     color: #ffffff;
+    line-height:1.2;
   }
 
   .about__info-text {
@@ -516,7 +522,8 @@ tablet display
     width: 85%;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: center;
+    gap:0.5rem;
   }
 
   .contact__info-heading-block {
@@ -531,10 +538,9 @@ tablet display
   }
 
   .contact__info-text-block {
-    min-height: 10rem;
-    display: flex;
-    align-items: center;
-    width: 75%;
+    min-height: 10rem; 
+    display: flex;  
+    width: 60%;
   }
 
   .contact__info-text {
@@ -760,9 +766,7 @@ tablet display
   .main__project {
     min-height: 40rem; 
     display: grid;
-    grid-template-columns:repeat(2, 40rem);
-    justify-content: center;
-    gap: 16rem; 
+    grid-template-columns:repeat(2, minmax(37rem, 40rem));
   }
 
   .project__preview-block {
@@ -859,7 +863,7 @@ tablet display
     width: 85%;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: center;
   }
 
   .contact__info-heading-block {
@@ -874,9 +878,7 @@ tablet display
   }
 
   .contact__info-text-block {
-    min-height: 10rem;
-    display: flex;
-    align-items: center;
+    min-height: 10rem;  
     width: 44%;
   }
 
