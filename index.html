@@ -12,9 +12,9 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link
     href="https://fonts.googleapis.com/css2?family=Roboto+Serif:opsz,wght@8..144,300;8..144,400;8..144,500;8..144,600;8..144,700;8..144,800&display=swap"
-    rel="stylesheet"> 
-    <link rel="stylesheet" href="reset.css">  
-    <link rel="stylesheet" href="style.css"> 
+    rel="stylesheet">
+  <link rel="stylesheet" href="reset.css">
+  <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
@@ -29,7 +29,7 @@
         <li class="nav__link-item"><a class="nav__link" href="#">Articles</a></li>
         <li class="nav__link-item"><a class="nav__link" href="#">Chats</a></li>
         <li class="nav__link-item"><a class="nav__link" href="#">Awards</a></li>
-        <li class="nav__link-item"><a class="nav__link" href="#">About</a></li>
+        <li class="nav__link-item"><a class="nav__link" href="#about">About</a></li>
       </ul>
     </nav>
 
@@ -46,11 +46,13 @@
 
     <div class="header__menu-block">
       <img class="header__menu" src="assets/Hamburger Menu.svg" alt="Hamburger Menu">
-    </div> 
+    </div>
   </header>
 
   <!-- main -->
   <main class="main-block">
+
+    <!-- company -->
     <div class="main__company-block">
       <div class="company__info-block">
         <div class="company__info-heading-block">
@@ -95,6 +97,7 @@
       </div>
     </div>
 
+    <!-- project -->
     <div class="main__project-block">
       <div class="main__project">
 
@@ -106,9 +109,11 @@
 
           <div class="project__info-block">
             <div class="project__info-heading-block">
-              <p class="project__info-heading">
-                Spense.com &rightarrow;
-              </p>
+              <a class="project__info-heading-link" href="#">
+                <p class="project__info-heading">
+                  Spense.com <span class="project__info-heading-span">&rightarrow;</span>
+                </p>
+              </a> 
             </div>
 
             <div class="project__info-text-block">
@@ -130,9 +135,11 @@
 
           <div class="project__info-block">
             <div class="project__info-heading-block">
-              <p class="project__info-heading">
-                YelpCamp.com &rightarrow;
+              <a class="project__info-heading-link" href="#">
+                <p class="project__info-heading">
+                YelpCamp.com <span class="project__info-heading-span">&rightarrow;</span>
               </p>
+            </a>
             </div>
 
             <div class="project__info-text-block">
@@ -148,7 +155,8 @@
       </div>
     </div>
 
-    <div class="main__about-block">
+    <!-- about -->
+    <div id="about" class="main__about-block">
       <div class="main__about">
         <div class="about__info-box">
           <div class="about__info-heading-block">
@@ -176,7 +184,7 @@
           </p>
 
           <p class="about__info-text">
-            A quote I live byy perfectly illustrates what I mean.
+            A quote I live by perfectly illustrates what I mean.
           </p>
 
           <p class="about__info-text">
@@ -192,6 +200,7 @@
       </div>
     </div>
 
+    <!-- contact -->
     <div class="main__contact-block">
 
       <div class="main__contact">
@@ -218,6 +227,7 @@
 
   </main>
 
+  <!-- footer -->
   <footer class="footer-block">
     <div class="footer__name-block">
       <p class="footer__name">
